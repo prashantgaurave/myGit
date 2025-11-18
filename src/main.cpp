@@ -1,10 +1,9 @@
 #include <iostream>
 #include <string>
 
-void do_init()
-{
-    std::cout<<"[DEBUG] init command received\n";
-}
+
+
+void do_init(); //forward declaration
 
 void do_add(std::string const& filename)
 {
