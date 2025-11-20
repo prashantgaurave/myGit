@@ -4,11 +4,7 @@
 
 
 void do_init(); //forward declaration
-
-void do_add(std::string const& filename)
-{
-    std::cout<<"[DEBUG] add command received for file:"<<filename<<"\n";
-}
+void do_add(std::string const& filename);
 
 void do_commit(std::string const& msg)
 {

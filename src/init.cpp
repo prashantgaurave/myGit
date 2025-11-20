@@ -11,7 +11,7 @@ void do_init()
         std::cout<<"Repository already initialized\n";
         return;
     }
-    fs::create_directory(".mygit");
+    fs::create_directory(".myGit");
 
     // Create subdirectories like git does
     fs::create_directory(".myGit/objects");
